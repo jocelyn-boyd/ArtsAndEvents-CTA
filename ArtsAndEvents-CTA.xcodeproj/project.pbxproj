@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		27FC02215CD50DD01AA4FDBC /* Pods_ArtsAndEvents_CTATests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E5C2374323E2CFAB3E85B05 /* Pods_ArtsAndEvents_CTATests.framework */; };
+		B21A58398001E4EB5CD5560C /* Pods_ArtsAndEvents_CTA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 787F2262C28097C0CB0C4CD9 /* Pods_ArtsAndEvents_CTA.framework */; };
+		D8B566D72411A91200D308F5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B566D62411A91200D308F5 /* AppDelegate.swift */; };
+		D8B566D92411A91200D308F5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B566D82411A91200D308F5 /* SceneDelegate.swift */; };
+		D8B566DB2411A91200D308F5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B566DA2411A91200D308F5 /* ViewController.swift */; };
+		D8B566DE2411A91200D308F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8B566DC2411A91200D308F5 /* Main.storyboard */; };
+		D8B566E02411A91400D308F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8B566DF2411A91400D308F5 /* Assets.xcassets */; };
+		D8B566E32411A91400D308F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8B566E12411A91400D308F5 /* LaunchScreen.storyboard */; };
+		D8B566EE2411A91400D308F5 /* ArtsAndEvents_CTATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B566ED2411A91400D308F5 /* ArtsAndEvents_CTATests.swift */; };
+		D8B566F92411AA5D00D308F5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D8B566F82411AA5D00D308F5 /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D8B566EA2411A91400D308F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D8B566CB2411A91200D308F5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D8B566D22411A91200D308F5;
+			remoteInfo = "ArtsAndEvents-CTA";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4784BA70B1BECCEF2B02A662 /* Pods-ArtsAndEvents-CTA.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArtsAndEvents-CTA.release.xcconfig"; path = "Target Support Files/Pods-ArtsAndEvents-CTA/Pods-ArtsAndEvents-CTA.release.xcconfig"; sourceTree = "<group>"; };
+		58EF8BA4241899B0D85D5444 /* Pods-ArtsAndEvents-CTA.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArtsAndEvents-CTA.debug.xcconfig"; path = "Target Support Files/Pods-ArtsAndEvents-CTA/Pods-ArtsAndEvents-CTA.debug.xcconfig"; sourceTree = "<group>"; };
+		787F2262C28097C0CB0C4CD9 /* Pods_ArtsAndEvents_CTA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ArtsAndEvents_CTA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DB25EA9C7CA3C58AF01EF60 /* Pods-ArtsAndEvents-CTATests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArtsAndEvents-CTATests.release.xcconfig"; path = "Target Support Files/Pods-ArtsAndEvents-CTATests/Pods-ArtsAndEvents-CTATests.release.xcconfig"; sourceTree = "<group>"; };
+		9E5C2374323E2CFAB3E85B05 /* Pods_ArtsAndEvents_CTATests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ArtsAndEvents_CTATests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB1D7FCFAE11BA2652E8BA40 /* Pods-ArtsAndEvents-CTATests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArtsAndEvents-CTATests.debug.xcconfig"; path = "Target Support Files/Pods-ArtsAndEvents-CTATests/Pods-ArtsAndEvents-CTATests.debug.xcconfig"; sourceTree = "<group>"; };
+		D8B566D32411A91200D308F5 /* ArtsAndEvents-CTA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ArtsAndEvents-CTA.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8B566D62411A91200D308F5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D8B566D82411A91200D308F5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D8B566DA2411A91200D308F5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D8B566DD2411A91200D308F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D8B566DF2411A91400D308F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D8B566E22411A91400D308F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D8B566E42411A91400D308F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8B566E92411A91400D308F5 /* ArtsAndEvents-CTATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ArtsAndEvents-CTATests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8B566ED2411A91400D308F5 /* ArtsAndEvents_CTATests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtsAndEvents_CTATests.swift; sourceTree = "<group>"; };
+		D8B566EF2411A91400D308F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8B566F82411AA5D00D308F5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D8B566D02411A91200D308F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B21A58398001E4EB5CD5560C /* Pods_ArtsAndEvents_CTA.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8B566E62411A91400D308F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27FC02215CD50DD01AA4FDBC /* Pods_ArtsAndEvents_CTATests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1938AB1DBDFB63A4DFA99267 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				58EF8BA4241899B0D85D5444 /* Pods-ArtsAndEvents-CTA.debug.xcconfig */,
+				4784BA70B1BECCEF2B02A662 /* Pods-ArtsAndEvents-CTA.release.xcconfig */,
+				CB1D7FCFAE11BA2652E8BA40 /* Pods-ArtsAndEvents-CTATests.debug.xcconfig */,
+				7DB25EA9C7CA3C58AF01EF60 /* Pods-ArtsAndEvents-CTATests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		76DB9219D855E1AC7ECB4E20 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				787F2262C28097C0CB0C4CD9 /* Pods_ArtsAndEvents_CTA.framework */,
+				9E5C2374323E2CFAB3E85B05 /* Pods_ArtsAndEvents_CTATests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D8B566CA2411A91200D308F5 = {
+			isa = PBXGroup;
+			children = (
+				D8B566D52411A91200D308F5 /* ArtsAndEvents-CTA */,
+				D8B566EC2411A91400D308F5 /* ArtsAndEvents-CTATests */,
+				D8B566D42411A91200D308F5 /* Products */,
+				1938AB1DBDFB63A4DFA99267 /* Pods */,
+				76DB9219D855E1AC7ECB4E20 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D8B566D42411A91200D308F5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D8B566D32411A91200D308F5 /* ArtsAndEvents-CTA.app */,
+				D8B566E92411A91400D308F5 /* ArtsAndEvents-CTATests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D8B566D52411A91200D308F5 /* ArtsAndEvents-CTA */ = {
+			isa = PBXGroup;
+			children = (
+				D8B566D62411A91200D308F5 /* AppDelegate.swift */,
+				D8B566D82411A91200D308F5 /* SceneDelegate.swift */,
+				D8B566DA2411A91200D308F5 /* ViewController.swift */,
+				D8B566DC2411A91200D308F5 /* Main.storyboard */,
+				D8B566DF2411A91400D308F5 /* Assets.xcassets */,
+				D8B566E12411A91400D308F5 /* LaunchScreen.storyboard */,
+				D8B566E42411A91400D308F5 /* Info.plist */,
+				D8B566F82411AA5D00D308F5 /* GoogleService-Info.plist */,
+			);
+			path = "ArtsAndEvents-CTA";
+			sourceTree = "<group>";
+		};
+		D8B566EC2411A91400D308F5 /* ArtsAndEvents-CTATests */ = {
+			isa = PBXGroup;
+			children = (
+				D8B566ED2411A91400D308F5 /* ArtsAndEvents_CTATests.swift */,
+				D8B566EF2411A91400D308F5 /* Info.plist */,
+			);
+			path = "ArtsAndEvents-CTATests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D8B566D22411A91200D308F5 /* ArtsAndEvents-CTA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8B566F22411A91400D308F5 /* Build configuration list for PBXNativeTarget "ArtsAndEvents-CTA" */;
+			buildPhases = (
+				0209C5FBB39561ABEEB9EC22 /* [CP] Check Pods Manifest.lock */,
+				D8B566CF2411A91200D308F5 /* Sources */,
+				D8B566D02411A91200D308F5 /* Frameworks */,
+				D8B566D12411A91200D308F5 /* Resources */,
+				5186B2E344AA92B7A2C3DAB0 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ArtsAndEvents-CTA";
+			productName = "ArtsAndEvents-CTA";
+			productReference = D8B566D32411A91200D308F5 /* ArtsAndEvents-CTA.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D8B566E82411A91400D308F5 /* ArtsAndEvents-CTATests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8B566F52411A91400D308F5 /* Build configuration list for PBXNativeTarget "ArtsAndEvents-CTATests" */;
+			buildPhases = (
+				115CE574114EFC6CC9A95B8E /* [CP] Check Pods Manifest.lock */,
+				D8B566E52411A91400D308F5 /* Sources */,
+				D8B566E62411A91400D308F5 /* Frameworks */,
+				D8B566E72411A91400D308F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D8B566EB2411A91400D308F5 /* PBXTargetDependency */,
+			);
+			name = "ArtsAndEvents-CTATests";
+			productName = "ArtsAndEvents-CTATests";
+			productReference = D8B566E92411A91400D308F5 /* ArtsAndEvents-CTATests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D8B566CB2411A91200D308F5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Purssuit;
+				TargetAttributes = {
+					D8B566D22411A91200D308F5 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					D8B566E82411A91400D308F5 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = D8B566D22411A91200D308F5;
+					};
+				};
+			};
+			buildConfigurationList = D8B566CE2411A91200D308F5 /* Build configuration list for PBXProject "ArtsAndEvents-CTA" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D8B566CA2411A91200D308F5;
+			productRefGroup = D8B566D42411A91200D308F5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D8B566D22411A91200D308F5 /* ArtsAndEvents-CTA */,
+				D8B566E82411A91400D308F5 /* ArtsAndEvents-CTATests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D8B566D12411A91200D308F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8B566E32411A91400D308F5 /* LaunchScreen.storyboard in Resources */,
+				D8B566F92411AA5D00D308F5 /* GoogleService-Info.plist in Resources */,
+				D8B566E02411A91400D308F5 /* Assets.xcassets in Resources */,
+				D8B566DE2411A91200D308F5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8B566E72411A91400D308F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0209C5FBB39561ABEEB9EC22 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ArtsAndEvents-CTA-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		115CE574114EFC6CC9A95B8E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ArtsAndEvents-CTATests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5186B2E344AA92B7A2C3DAB0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ArtsAndEvents-CTA/Pods-ArtsAndEvents-CTA-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ArtsAndEvents-CTA/Pods-ArtsAndEvents-CTA-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ArtsAndEvents-CTA/Pods-ArtsAndEvents-CTA-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D8B566CF2411A91200D308F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8B566DB2411A91200D308F5 /* ViewController.swift in Sources */,
+				D8B566D72411A91200D308F5 /* AppDelegate.swift in Sources */,
+				D8B566D92411A91200D308F5 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8B566E52411A91400D308F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8B566EE2411A91400D308F5 /* ArtsAndEvents_CTATests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D8B566EB2411A91400D308F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D8B566D22411A91200D308F5 /* ArtsAndEvents-CTA */;
+			targetProxy = D8B566EA2411A91400D308F5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D8B566DC2411A91200D308F5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D8B566DD2411A91200D308F5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D8B566E12411A91400D308F5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D8B566E22411A91400D308F5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D8B566F02411A91400D308F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D8B566F12411A91400D308F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D8B566F32411A91400D308F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58EF8BA4241899B0D85D5444 /* Pods-ArtsAndEvents-CTA.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 453FAV4WWW;
+				INFOPLIST_FILE = "ArtsAndEvents-CTA/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kabocha.ArtsAndEvents-CTA";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D8B566F42411A91400D308F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4784BA70B1BECCEF2B02A662 /* Pods-ArtsAndEvents-CTA.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 453FAV4WWW;
+				INFOPLIST_FILE = "ArtsAndEvents-CTA/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kabocha.ArtsAndEvents-CTA";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D8B566F62411A91400D308F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB1D7FCFAE11BA2652E8BA40 /* Pods-ArtsAndEvents-CTATests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 453FAV4WWW;
+				INFOPLIST_FILE = "ArtsAndEvents-CTATests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kabocha.ArtsAndEvents-CTATests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ArtsAndEvents-CTA.app/ArtsAndEvents-CTA";
+			};
+			name = Debug;
+		};
+		D8B566F72411A91400D308F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DB25EA9C7CA3C58AF01EF60 /* Pods-ArtsAndEvents-CTATests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 453FAV4WWW;
+				INFOPLIST_FILE = "ArtsAndEvents-CTATests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kabocha.ArtsAndEvents-CTATests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ArtsAndEvents-CTA.app/ArtsAndEvents-CTA";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D8B566CE2411A91200D308F5 /* Build configuration list for PBXProject "ArtsAndEvents-CTA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8B566F02411A91400D308F5 /* Debug */,
+				D8B566F12411A91400D308F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8B566F22411A91400D308F5 /* Build configuration list for PBXNativeTarget "ArtsAndEvents-CTA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8B566F32411A91400D308F5 /* Debug */,
+				D8B566F42411A91400D308F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8B566F52411A91400D308F5 /* Build configuration list for PBXNativeTarget "ArtsAndEvents-CTATests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8B566F62411A91400D308F5 /* Debug */,
+				D8B566F72411A91400D308F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D8B566CB2411A91200D308F5 /* Project object */;
+}
