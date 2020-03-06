@@ -21,7 +21,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     
     window = UIWindow(frame: UIScreen.main.bounds)
     window?.windowScene = windowScene
-    let launchScreen = LaunchViewController.storyboardInstance()
+    let launchScreen = AuthenticationViewController.storyboardInstance()
     window?.rootViewController = launchScreen
     window?.makeKeyAndVisible()
     

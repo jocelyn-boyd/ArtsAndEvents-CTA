@@ -1,5 +1,5 @@
 //
-//  LoginViewController.swift
+//  MainViewController.swift
 //  ArtsAndEvents-CTA
 //
 //  Created by Jocelyn Boyd on 3/5/20.
@@ -9,13 +9,15 @@
 import UIKit
 
 class LoginViewController: UIViewController {
-
+  
   @IBOutlet weak var emailTextField: UITextField!
   @IBOutlet weak var passwordTextField: UITextField!
   @IBOutlet weak var loginButton: UIButton!
+  @IBOutlet weak var signupButton: UIButton!
   
   
-    override func viewDidLoad() {
+  
+  override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.

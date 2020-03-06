@@ -1,20 +1,21 @@
 //
-//  MainViewController.swift
+//  AuthenticationViewController.swift
 //  ArtsAndEvents-CTA
 //
-//  Created by Jocelyn Boyd on 3/5/20.
+//  Created by Jocelyn Boyd on 3/6/20.
 //  Copyright © 2020 Purssuit. All rights reserved.
 //
 
 import UIKit
 
-class MainViewController: UIViewController {
+class AuthenticationViewController: UINavigationController {
 
-  @IBOutlet weak var signupButton: UIButton!
-  @IBOutlet weak var loginBUtton: UIButton!
+  static func storyboardInstance() -> LoginViewController? {
+    let storyboard = UIStoryboard(name: "Main", bundle: nil)
+  return storyboard.instantiateViewController(identifier: "LoginViewController") as? LoginViewController
+  }
   
-  
-  override func viewDidLoad() {
+    override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.

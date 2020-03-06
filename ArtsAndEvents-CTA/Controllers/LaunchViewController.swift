@@ -8,12 +8,15 @@
 
 import UIKit
 
-class LaunchViewController: UINavigationController {
+class StartupViewController: UINavigationController {
 
-  static func storyboardInstance() -> MainViewController? {
+  @IBOutlet weak var emailTextField: UITextField!
+  @IBOutlet weak var emailTextField: UITextField!
+  static func storyboardInstance() -> LoginViewController? {
     let  storyboard = UIStoryboard(name: "Main", bundle: nil)
+    @IBOutlet weak var emailTextField: UITextField!
     
-    return storyboard.instantiateViewController(identifier: "MainViewController") as? MainViewController
+    return storyboard.instantiateViewController(identifier: "LoginViewController") as? LoginViewController
   }
   
     override func viewDidLoad() {

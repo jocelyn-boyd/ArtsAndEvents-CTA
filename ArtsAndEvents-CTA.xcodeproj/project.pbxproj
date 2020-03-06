@@ -9,7 +9,8 @@
 /* Begin PBXBuildFile section */
 		27FC02215CD50DD01AA4FDBC /* Pods_ArtsAndEvents_CTATests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E5C2374323E2CFAB3E85B05 /* Pods_ArtsAndEvents_CTATests.framework */; };
 		B21A58398001E4EB5CD5560C /* Pods_ArtsAndEvents_CTA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 787F2262C28097C0CB0C4CD9 /* Pods_ArtsAndEvents_CTA.framework */; };
-		D8580E0F2411D26C00324A38 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8580E0E2411D26C00324A38 /* MainViewController.swift */; };
+		D8580E0F2411D26C00324A38 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8580E0E2411D26C00324A38 /* LoginViewController.swift */; };
+		D86DB7602412B81C00209457 /* AuthenticationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86DB75F2412B81C00209457 /* AuthenticationViewController.swift */; };
 		D8B566D72411A91200D308F5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B566D62411A91200D308F5 /* AppDelegate.swift */; };
 		D8B566D92411A91200D308F5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B566D82411A91200D308F5 /* SceneDelegate.swift */; };
 		D8B566DE2411A91200D308F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8B566DC2411A91200D308F5 /* Main.storyboard */; };
@@ -18,8 +19,6 @@
 		D8B566EE2411A91400D308F5 /* ArtsAndEvents_CTATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B566ED2411A91400D308F5 /* ArtsAndEvents_CTATests.swift */; };
 		D8B566F92411AA5D00D308F5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D8B566F82411AA5D00D308F5 /* GoogleService-Info.plist */; };
 		D8B567022411C47C00D308F5 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B567012411C47C00D308F5 /* SignupViewController.swift */; };
-		D8B567042411C48E00D308F5 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B567032411C48E00D308F5 /* LoginViewController.swift */; };
-		D8B567062411CFE500D308F5 /* LaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B567052411CFE500D308F5 /* LaunchViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +38,8 @@
 		7DB25EA9C7CA3C58AF01EF60 /* Pods-ArtsAndEvents-CTATests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArtsAndEvents-CTATests.release.xcconfig"; path = "Target Support Files/Pods-ArtsAndEvents-CTATests/Pods-ArtsAndEvents-CTATests.release.xcconfig"; sourceTree = "<group>"; };
 		9E5C2374323E2CFAB3E85B05 /* Pods_ArtsAndEvents_CTATests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ArtsAndEvents_CTATests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB1D7FCFAE11BA2652E8BA40 /* Pods-ArtsAndEvents-CTATests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArtsAndEvents-CTATests.debug.xcconfig"; path = "Target Support Files/Pods-ArtsAndEvents-CTATests/Pods-ArtsAndEvents-CTATests.debug.xcconfig"; sourceTree = "<group>"; };
-		D8580E0E2411D26C00324A38 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		D8580E0E2411D26C00324A38 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		D86DB75F2412B81C00209457 /* AuthenticationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationViewController.swift; sourceTree = "<group>"; };
 		D8B566D32411A91200D308F5 /* ArtsAndEvents-CTA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ArtsAndEvents-CTA.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8B566D62411A91200D308F5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D8B566D82411A91200D308F5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -52,8 +52,6 @@
 		D8B566EF2411A91400D308F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D8B566F82411AA5D00D308F5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		D8B567012411C47C00D308F5 /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
-		D8B567032411C48E00D308F5 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		D8B567052411CFE500D308F5 /* LaunchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,7 +151,6 @@
 		D8B566FC2411BD8600D308F5 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				D8B567052411CFE500D308F5 /* LaunchViewController.swift */,
 				D8B566FD2411BE0400D308F5 /* Authentication */,
 			);
 			path = Controllers;
@@ -162,9 +159,9 @@
 		D8B566FD2411BE0400D308F5 /* Authentication */ = {
 			isa = PBXGroup;
 			children = (
-				D8580E0E2411D26C00324A38 /* MainViewController.swift */,
+				D86DB75F2412B81C00209457 /* AuthenticationViewController.swift */,
+				D8580E0E2411D26C00324A38 /* LoginViewController.swift */,
 				D8B567012411C47C00D308F5 /* SignupViewController.swift */,
-				D8B567032411C48E00D308F5 /* LoginViewController.swift */,
 			);
 			path = Authentication;
 			sourceTree = "<group>";
@@ -360,11 +357,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D8B567062411CFE500D308F5 /* LaunchViewController.swift in Sources */,
 				D8B566D72411A91200D308F5 /* AppDelegate.swift in Sources */,
 				D8B567022411C47C00D308F5 /* SignupViewController.swift in Sources */,
-				D8580E0F2411D26C00324A38 /* MainViewController.swift in Sources */,
-				D8B567042411C48E00D308F5 /* LoginViewController.swift in Sources */,
+				D86DB7602412B81C00209457 /* AuthenticationViewController.swift in Sources */,
+				D8580E0F2411D26C00324A38 /* LoginViewController.swift in Sources */,
 				D8B566D92411A91200D308F5 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
