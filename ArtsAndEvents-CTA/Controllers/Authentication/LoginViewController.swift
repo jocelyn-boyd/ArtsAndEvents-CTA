@@ -3,7 +3,7 @@
 //  ArtsAndEvents-CTA
 //
 //  Created by Jocelyn Boyd on 3/5/20.
-//  Copyright © 2020 Purssuit. All rights reserved.
+//  Copyright © 2020 Pursuit. All rights reserved.
 //
 
 import UIKit

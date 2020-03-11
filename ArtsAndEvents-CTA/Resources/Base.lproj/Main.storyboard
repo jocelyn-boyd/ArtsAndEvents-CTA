@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="b09-8i-j8d">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
@@ -16,7 +16,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="zRH-6o-49a">
-                                <rect key="frame" x="40" y="84" width="334" height="220"/>
+                                <rect key="frame" x="40" y="128" width="334" height="220"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CTA Project" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wm7-TH-WGo">
                                         <rect key="frame" x="0.0" y="0.0" width="334" height="40"/>
@@ -96,13 +96,13 @@
         <!--Signup View Controller-->
         <scene sceneID="JKY-yo-6Z8">
             <objects>
-                <viewController id="WSc-6J-oGF" userLabel="Signup View Controller" customClass="SignupViewController" customModule="ArtsAndEvents_CTA" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="currentContext" id="WSc-6J-oGF" userLabel="Signup View Controller" customClass="SignupViewController" customModule="ArtsAndEvents_CTA" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="k7g-OY-CWc">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="Mn8-HJ-hvn">
-                                <rect key="frame" x="40" y="84" width="334" height="516"/>
+                                <rect key="frame" x="40" y="128" width="334" height="516"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Create An Account" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bs0-dU-rLb">
                                         <rect key="frame" x="0.0" y="0.0" width="334" height="40"/>
@@ -141,6 +141,9 @@
                                             <constraint firstAttribute="height" constant="40" id="Eqt-Ec-fHT"/>
                                         </constraints>
                                         <state key="normal" title="Sign Up"/>
+                                        <connections>
+                                            <action selector="signupButtonPressed:" destination="WSc-6J-oGF" eventType="touchUpInside" id="GMY-Xw-cY2"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <constraints>
@@ -157,9 +160,10 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="mkL-2N-LsQ"/>
                     </view>
-                    <navigationItem key="navigationItem" id="bys-6y-uxy"/>
+                    <navigationItem key="navigationItem" leftItemsSupplementBackButton="YES" id="bys-6y-uxy"/>
                     <connections>
                         <outlet property="emailTextField" destination="zu5-Rn-R4y" id="W0t-gZ-oBe"/>
+                        <outlet property="experiencePicker" destination="ZjF-be-Tmf" id="EiO-nA-hkP"/>
                         <outlet property="passwordTextField" destination="mxy-y0-Rqo" id="Lm0-hr-6V9"/>
                         <outlet property="signupButton" destination="M0o-nK-HIv" id="YF1-mM-Dob"/>
                     </connections>
@@ -171,12 +175,16 @@
         <!--Navigation Controller-->
         <scene sceneID="CVa-qK-5ld">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="b09-8i-j8d" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="b09-8i-j8d" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="JlK-lg-DE3">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
+                    <toolbar key="toolbar" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="glE-I4-IqO">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </toolbar>
                     <connections>
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="Xoc-51-Ojc"/>
                     </connections>

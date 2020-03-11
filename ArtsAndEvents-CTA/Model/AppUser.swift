@@ -3,7 +3,7 @@
 //  ArtsAndEvents-CTA
 //
 //  Created by Jocelyn Boyd on 3/6/20.
-//  Copyright © 2020 Purssuit. All rights reserved.
+//  Copyright © 2020 Pursuit. All rights reserved.
 //
 
 import Foundation
@@ -33,4 +33,9 @@ struct AppUser {
     self.userExperience = userExperience
   }
   
+  var fieldsDict: [String:Any] {
+    return [
+      "userExperience":self.userExperience ?? "",
+      "email":self.email ?? ""]
+  }
 }

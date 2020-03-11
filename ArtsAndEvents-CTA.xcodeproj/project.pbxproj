@@ -14,6 +14,9 @@
 		D86DB7642412BA3700209457 /* FirebaseAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86DB7632412BA3700209457 /* FirebaseAuth.swift */; };
 		D86DB7662412BA4A00209457 /* FirebaseFirestore.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86DB7652412BA4A00209457 /* FirebaseFirestore.swift */; };
 		D86DB7682412BA6700209457 /* AppUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86DB7672412BA6700209457 /* AppUser.swift */; };
+		D86DB76A2412CEE900209457 /* MainExperienceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86DB7692412CEE900209457 /* MainExperienceViewController.swift */; };
+		D86DB76C2412CF3500209457 /* MainTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86DB76B2412CF3500209457 /* MainTabViewController.swift */; };
+		D86DB7712419695600209457 /* String+Validations.swift in Sources */ = {isa = PBXBuildFile; fileRef = D86DB7702419695600209457 /* String+Validations.swift */; };
 		D8B566D72411A91200D308F5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B566D62411A91200D308F5 /* AppDelegate.swift */; };
 		D8B566D92411A91200D308F5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B566D82411A91200D308F5 /* SceneDelegate.swift */; };
 		D8B566DE2411A91200D308F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8B566DC2411A91200D308F5 /* Main.storyboard */; };
@@ -46,6 +49,9 @@
 		D86DB7632412BA3700209457 /* FirebaseAuth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseAuth.swift; sourceTree = "<group>"; };
 		D86DB7652412BA4A00209457 /* FirebaseFirestore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseFirestore.swift; sourceTree = "<group>"; };
 		D86DB7672412BA6700209457 /* AppUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUser.swift; sourceTree = "<group>"; };
+		D86DB7692412CEE900209457 /* MainExperienceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainExperienceViewController.swift; sourceTree = "<group>"; };
+		D86DB76B2412CF3500209457 /* MainTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabViewController.swift; sourceTree = "<group>"; };
+		D86DB7702419695600209457 /* String+Validations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Validations.swift"; sourceTree = "<group>"; };
 		D8B566D32411A91200D308F5 /* ArtsAndEvents-CTA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ArtsAndEvents-CTA.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8B566D62411A91200D308F5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D8B566D82411A91200D308F5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -117,6 +123,21 @@
 			path = Firebase;
 			sourceTree = "<group>";
 		};
+		D86DB76D2419690800209457 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		D86DB76F2419692500209457 /* Extenstions */ = {
+			isa = PBXGroup;
+			children = (
+				D86DB7702419695600209457 /* String+Validations.swift */,
+			);
+			path = Extenstions;
+			sourceTree = "<group>";
+		};
 		D8B566CA2411A91200D308F5 = {
 			isa = PBXGroup;
 			children = (
@@ -140,6 +161,8 @@
 		D8B566D52411A91200D308F5 /* ArtsAndEvents-CTA */ = {
 			isa = PBXGroup;
 			children = (
+				D86DB76F2419692500209457 /* Extenstions */,
+				D86DB76D2419690800209457 /* Helpers */,
 				D8B566D62411A91200D308F5 /* AppDelegate.swift */,
 				D8B566D82411A91200D308F5 /* SceneDelegate.swift */,
 				D8B566FE2411BE2900D308F5 /* Model */,
@@ -176,6 +199,8 @@
 			isa = PBXGroup;
 			children = (
 				D8B566FD2411BE0400D308F5 /* Authentication */,
+				D86DB76B2412CF3500209457 /* MainTabViewController.swift */,
+				D86DB7692412CEE900209457 /* MainExperienceViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -382,10 +407,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D86DB7712419695600209457 /* String+Validations.swift in Sources */,
 				D86DB7682412BA6700209457 /* AppUser.swift in Sources */,
 				D86DB7642412BA3700209457 /* FirebaseAuth.swift in Sources */,
 				D8B566D72411A91200D308F5 /* AppDelegate.swift in Sources */,
 				D8B567022411C47C00D308F5 /* SignupViewController.swift in Sources */,
+				D86DB76A2412CEE900209457 /* MainExperienceViewController.swift in Sources */,
+				D86DB76C2412CF3500209457 /* MainTabViewController.swift in Sources */,
 				D86DB7662412BA4A00209457 /* FirebaseFirestore.swift in Sources */,
 				D86DB7602412B81C00209457 /* AuthenticationViewController.swift in Sources */,
 				D8580E0F2411D26C00324A38 /* LoginViewController.swift in Sources */,
